@@ -126,9 +126,9 @@ label{
 
 
 
-@media only screen and (max-width: 899px){
+@media only screen and (max-width: 1199px){
     body {
-        background-color:aqua;
+        /*background-color:aqua; */
     }
     .formulario {
         display:block;
@@ -137,9 +137,9 @@ label{
 
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 900px) {
+@media only screen and (min-width: 1200px) {
     body {
-        background-color:aliceblue;
+        /*background-color:aliceblue;*/
     }
     .formulario {
         display: flex;
