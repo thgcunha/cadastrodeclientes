@@ -7,12 +7,104 @@
     
 }
 
+    
+@media(min-width:500px) and (max-width: 1199px){
+
+    body{background:linear-gradient(-90deg,rgb(98, 173, 235),rgb(70, 95, 236));
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:rgb(3, 3, 3);
+    }
+
+    h1{
+        text-align: center;
+        border-bottom:2px solid  rgb(26, 26, 27);
+        
+    
+    }
+    
+    .formulario {
+        display:block;
+        text-align: center;
+    }
+
+    form>input{
+        display: block;
+        text-align: center;
+    }
+
+    form>textarea{
+        
+        float: left;
+        text-align: center;
+
+    }
+
+    .fa-envelope-open{
+        float: left;
+        margin-left:45px;
+        text-align: center;
+        
+    }
+    i{
+        text-align: center;
+    }
+
+    form button {
+        
+        display:inline-block;
+        border:none;
+        outline:none;
+        background:linear-gradient(-90deg,rgb(98, 173, 235),rgb(70, 95, 236));
+        color:rgb(241, 242, 243);
+        border-radius:15px;
+        height:60px;
+        padding:20px;
+        margin-top: 20px;
+        
+
+}
+
+form button:hover {
+    background:linear-gradient(-90deg,rgb(98, 173, 235),rgb(70, 95, 236));
+    cursor:pointer;
+    
+}
+
+
+
+
+
+}
+
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media(min-width: 1200px){
+
+    .formulario {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .container{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    } 
+
+    form>input{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    
+
 body{
     display:inline-block;
     background:linear-gradient(-90deg,rgb(98, 173, 235),rgb(70, 95, 236));
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color:rgb(3, 3, 3);
-}
+    }
 
 h1{
     text-align: center;
@@ -118,36 +210,17 @@ label{
     ;
     
 }
-
-    
-    
-    
-
-
-
-
-@media only screen and (max-width: 1199px){
-    body {
-        /*background-color:aqua; */
-    }
-    .formulario {
-        display:block;
-    }
 }
 
+    
 
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
-    body {
-        /*background-color:aliceblue;*/
-    }
-    .formulario {
-        display: flex;
-        justify-content: space-between;
-        flex-wrap: wrap;
-        
-    }
-}
+    
+
+
+
+
+
+
 
 
 
